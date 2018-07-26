@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+  color: black;
+}
+img {
+  max width:
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  border-bottom: 1px solid lightblue;
+  padding-bottom: 35px;
+  margin-top: 40px;
+}
+.header .logo {
+  float: left;
+}
+.header .hamburger {
+  float: right;
+  margin-top: 40px;
+  display: none;
+}
+.header .menu {
+  float: right;
+  margin-top: 35px;
+}
+.header .menu li {
+  float: left;
+}
+.header .menu li a {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+.header .menu li a:hover {
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+}
+.content {
+  margin-top: 3.92%;
+}
+.content div.heading {
+  background-color: lightblue;
+  border-radius: 0.49%;
+  font-weight: bold;
+  font-size: 1.57%;
+  color: white;
+  text-align: center;
+  padding-top: 0.98%;
+  padding-bottom: 0.98%;
+}
+.content .baslik-blog {
+  margin-top: 1.96%;
+}
+.content .urunler {
+  margin-top: 0.98%;
+}
+.content .urunler ul li {
+  width: 240px;
+  height: 240px;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+.content .urunler ul li:first-child {
+  margin-left: 0;
+}
+.content .blog {
+  margin-top: 10px;
+}
+.content .blog ul li {
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+}
+.content .blog ul li:first-child {
+  margin-left: 0;
+}
+.content .blog ul li .resim {
+  width: 120px;
+  float: left;
+}
+.content .blog ul li .yazi {
+  width: 370px;
+  float: left;
+  margin-left: 10px;
+}
+.content .blog ul li .yazi p.baslik {
+  font-weight: bold;
+  font-size: 13px;
+}
+.content .blog ul li .yazi p.aciklama {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.content .blog ul li .yazi p.tarih {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  font-size: 11px;
+}
+.footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  font-size: 12px;
+}

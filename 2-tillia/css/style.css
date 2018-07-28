@@ -49,20 +49,21 @@ img {
   border-radius: 5px;
 }
 .content {
-  margin-top: 4%;
+  margin-top: 40px;
 }
 .content div.heading {
   background-color: #64c7c6;
   border-radius: 0.5px;
   font-weight: bold;
-  font-size: 1.57%;
+  font-size: 16px;
   color: white;
   text-align: center;
-  padding-top: 0.98%;
-  padding-bottom: 0.98%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 .content .heading-blog {
-  margin-top: 1.96%;
+  margin-top: 20px;
 }
 .content .urunler {
   margin-top: 10px;
@@ -120,5 +121,6 @@ img {
   padding-top: 10px;
   border-top: 1px solid lightgray;
   font-size: 12px;
+  font-weight: bold;
   color: gray;
 }

@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  padding-top: 20px;
+}
+.header .menu {
+  margin-top: 30px;
+}
+.header .navigation ul {
+  margin-top: 40px;
+}
+.header .navigation ul li {
+  float: left;
+}
+.header .navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+.header .navigation ul li a:hover {
+  color: black;
+  background-color: lightblue;
+}
+.banner {
+  margin-top: 30px;
+}
+.content {
+  margin-top: 30px;
+}
+.sidebar {
+  width: 280px;
+  float: left;
+  padding: 40px 30px 220px;
+  background-color: #EFEFEF;
+  border-radius: 10px 0 0 10px;
+  background-image: url("img/sidebar.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.sidebar .arama {
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+ box-shadow: 1px -2px lightgray;
+}
+.sidebar .arama input {
+  float: left;
+  width: 180px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0;
+}
+.sidebar .arama button {
+  float: left;
+  border: 0;
+  background-color: white;
+  margin-top: 12px;
+}
+
+.sidebar .linkler {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+}
+.sidebar .linkler h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.sidebar .linkler ul li {
+  margin-top: 10px;
+}
+.sidebar .linkler ul li a {
+  color: #27AE61;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  background: url("img/menu.png") no-repeat left center;
+  padding-left: 15px;
+}
+.content {
+  width: 660px;
+  float: left;
+  padding: 30px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  background-image: url("img/contentb.png");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+.content h1 {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content p {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+}
+.content img {
+  margin-top: 30px;
+}
+.hades {
+  margin-top: 40px;
+}
+.hades p {
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}

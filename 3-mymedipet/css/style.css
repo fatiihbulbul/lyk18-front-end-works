@@ -23,11 +23,8 @@ body {
 .header {
   padding-top: 20px;
 }
-.header .menu {
+.header .navigation {
   margin-top: 30px;
-}
-.header .navigation ul {
-  margin-top: 40px;
 }
 .header .navigation ul li {
   float: left;
@@ -37,15 +34,13 @@ body {
   color: white;
   font-weight: bold;
   font-size: 14px;
-  padding: 10px;
+  padding: 15px;
   display: block;
+  transition: all 0.3s linear;
 }
 .header .navigation ul li a:hover {
   color: black;
   background-color: lightblue;
-}
-.banner {
-  margin-top: 30px;
 }
 .content {
   margin-top: 30px;
@@ -53,56 +48,63 @@ body {
 .sidebar {
   width: 280px;
   float: left;
-  padding: 40px 30px 220px;
+  margin-top: 30px;
+  padding: 40px 20px 30px 20px;
   background-color: #EFEFEF;
   border-radius: 10px 0 0 10px;
-  background-image: url("img/sidebar.png");
+  background-image: url("../img/sidebar.png");
   background-repeat: no-repeat;
   background-position: center bottom;
 }
-.sidebar .arama {
+.sidebar .search {
   height: 40px;
   background-color: white;
   border-radius: 5px;
- box-shadow: 1px -2px lightgray;
+  box-shadow: 1px -2px lightgray;
+  position: relative;
 }
-.sidebar .arama input {
+.sidebar .search input {
   float: left;
-  width: 180px;
+  width: 100%;
   height: 40px;
   padding-left: 10px;
+  padding-right: 35px;
   background-color: white;
   border-radius: 5px;
   border: 0;
+  box-shadow: inset 0 0.5px 0.5px gray;
 }
-.sidebar .arama button {
-  float: left;
+.sidebar .search button {
+  padding: 0;
   border: 0;
-  background-color: white;
-  margin-top: 12px;
+  background-color: transparent;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 9;
 }
 
-.sidebar .linkler {
+.sidebar .list {
   padding-top: 20px;
   padding-bottom: 25px;
   border-bottom: 1px solid lightgray;
 }
-.sidebar .linkler h1 {
+.sidebar .list h2 {
   font-size: 20px;
-  margin-bottom: 15px;
+font-weight: bold;
 }
-.sidebar .linkler ul li {
+.sidebar .list ul li {
   margin-top: 10px;
 }
-.sidebar .linkler ul li a {
+.sidebar .list ul li a {
   color: #27AE61;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
-  background: url("img/menu.png") no-repeat left center;
+  background: url("../img/menu.png") no-repeat left center;
   padding-left: 15px;
 }
-.content {
+.article {
   width: 660px;
   float: left;
   padding: 30px;
@@ -112,7 +114,7 @@ body {
   background-repeat: repeat-x;
   background-position: left bottom;
 }
-.content h1 {
+.content h2 {
   margin-top: 15px;
   font-weight: bold;
   font-size: 20px;
@@ -126,10 +128,13 @@ body {
 .content img {
   margin-top: 30px;
 }
-.hades {
+.footer {
   margin-top: 40px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 12px;
 }
-.hades p {
+.footer p {
   text-align: left;
   font-weight: bold;
   color: white;

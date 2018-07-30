@@ -72,6 +72,45 @@ body {
   left: 50px;
 }
 
+.A {
+  position: absolute;
+  top: -45px;
+  left: 90px;
+  transform: rotate(90deg);
+}
+.B {
+  position: absolute;
+  top: 20px;
+  left: 160px;
+}
+.C {
+  position: absolute;
+  top: 150px;
+  left: 160px;
+}
+.D {
+  position: absolute;
+  top: 215px;
+  left: 90px;
+  transform: rotate(90deg);
+}
+.E {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+.F {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.G {
+  position: absolute;
+  top: 85px;
+  left: 90px;
+  transform: rotate(90deg);
+}
+
 .ground {
 
 }

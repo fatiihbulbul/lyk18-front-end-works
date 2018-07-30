@@ -23,12 +23,12 @@ body {
 
 .screen {
   width: 210px;
-  margin-top: 350px;
+  margin-top: 330px;
   float: left;
 }
-.pannel{
+.panel{
   width: 385px;
-  margin-top: 50px;
+  margin-top: 30px;
   float: right;
 }
 
@@ -51,16 +51,16 @@ body {
   box-shadow: 0px 0px 25px #990000;
 }
 .floor {
-  height: 150px;
   width: 150px;
-  background-image: url(button.png);
+  height: 150px;
+  background-image: url(..img/button.png);
   background-size: 100%;
-  box-shadow: 0px 0px 25px #990000;
+  box-shadow: 0px 0px 20px #191970;
+  font-weight: bold;
+  font-size: 20px;
   display: inline-block;
   margin-top: 20px;
   margin-left: 20px;
-  font-weight: bold;
-  font-size: 20px;
   position: relative;
 }
 
@@ -70,75 +70,36 @@ body {
   position: absolute;
   top: 25px;
   left: 50px;
+}
+
+.ground {
+
+}
+.first {
+
+}
+.second {
+
+}
+.third {
+
+}
+.fourth {
+
+}
+.fifth {
+
+}
+.sixth {
 
 }
 
-.A {
-  position: absolute;
-  top: -45px;
-  left: 90px;
-  transform: rotate(90deg);
-}
-.B {
-  position: absolute;
-  top: 20px;
-  left: 160px;
-}
-.C {
-  position: absolute;
-  top: 150px;
-  left: 160px;
-}
-.D {
-  position: absolute;
-  top: 215px;
-  left: 90px;
-  transform: rotate(90deg);
-}
-.E {
-  position: absolute;
-  top: 150px;
-  left: 20px;
-}
-.F {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-.G {
-  position: absolute;
-  top: 85px;
-  left: 90px;
-  transform: rotate(90deg);
-}
-
-.zero {
-
-}
-.one {
-
-}
-.two {
-
-}
-.three {
-
-}
-.four {
-
-}
-.five {
-
-}
-.six {
-
-}
-.seven {
+.seventh {
 
 }
 .eight {
 
 }
-.nine {
+.ninth {
 
 }

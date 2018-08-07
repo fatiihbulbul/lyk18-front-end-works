@@ -35,12 +35,12 @@ body {
   font-weight: bold;
   font-size: 14px;
   padding: 15px;
-  display: block;
-  transition: all 0.3s linear;
+  display: inline-block;
+  transition: all 0.5s linear;
 }
 .header .navigation ul li a:hover {
   color: black;
-  background-color: lightblue;
+  background-color: #23FEFF;
 }
 .content {
   margin-top: 30px;
@@ -49,7 +49,7 @@ body {
   width: 280px;
   float: left;
   margin-top: 30px;
-  padding: 40px 20px 30px 20px;
+  padding: 40px 20px 220px 30px;
   background-color: #EFEFEF;
   border-radius: 10px 0 0 10px;
   background-image: url("../img/sidebar.png");
@@ -57,14 +57,9 @@ body {
   background-position: center bottom;
 }
 .sidebar .search {
-  height: 40px;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 1px -2px lightgray;
   position: relative;
 }
 .sidebar .search input {
-  float: left;
   width: 100%;
   height: 40px;
   padding-left: 10px;
@@ -81,17 +76,16 @@ body {
   position: absolute;
   top: 12px;
   right: 10px;
-  z-index: 9;
+  z-index: 2;
 }
 
 .sidebar .list {
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid lightgray;
 }
 .sidebar .list h2 {
   font-size: 20px;
-font-weight: bold;
 }
 .sidebar .list ul li {
   margin-top: 10px;
@@ -106,27 +100,33 @@ font-weight: bold;
 }
 .article {
   width: 660px;
-  float: left;
-  padding: 30px;
+  float: right;
+  margin-top: 30px;
+  padding: 30px 20px 30px 30px;
   background-color: white;
   border-radius: 0 10px 10px 0;
-  background-image: url("img/contentb.png");
-  background-repeat: repeat-x;
-  background-position: left bottom;
 }
-.content h2 {
+.article h2 {
   margin-top: 15px;
   font-weight: bold;
   font-size: 20px;
 }
-.content p {
+.article p {
   margin-top: 20px;
   font-size: 15px;
   line-height: 25px;
   color: #666666;
 }
-.content img {
+.article img {
   margin-top: 30px;
+}
+.article a {
+  text-decoration: none;
+  color: #666666;
+}
+.article a:hover {
+  color: #000000;
+  font-weight: bold;
 }
 .footer {
   margin-top: 40px;

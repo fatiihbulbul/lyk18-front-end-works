@@ -6,7 +6,7 @@
 }
 body {
   background-color: black;
-  font-family: "Haveltica, Sans-serif";
+  font-family: "Apercu Mono, monospace";
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -29,6 +29,8 @@ body {
 .panel{
   width: 385px;
   margin-top: 30px;
+  border: 10px solid transparent;
+  border-image: url(../img/border.jpg) 10 round;
   float: right;
 }
 
@@ -36,9 +38,11 @@ body {
   width: 210px;
   position: relative;
 }
-.button {
-  background-color: #ffd500;
-  padding-left: 10px;
+.console {
+  background-image: url(../img/panel.jpg);
+  background-size: cover;
+  border-radius: ;
+  padding-right: 10px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -50,12 +54,11 @@ body {
   border-radius: 9999px;
   box-shadow: 0px 0px 25px #990000;
 }
-.floor {
+.button {
   width: 150px;
   height: 150px;
-  background-image: url(..img/button.png);
-  background-size: 100%;
-  box-shadow: 0px 0px 20px #191970;
+  border-radius: 50%;
+  box-shadow: 10px 5px 15px #0a0a0a;
   font-weight: bold;
   font-size: 20px;
   display: inline-block;
@@ -64,12 +67,23 @@ body {
   position: relative;
 }
 
-.floor p {
+.floor {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/button.jpg);
+  background-size: 100%;
+  border-radius: 50%;
   font-size: 102px;
   font-weight: bold;
+  text-align: center ;
   position: absolute;
-  top: 25px;
-  left: 50px;
+}
+
+.floor p {
+  color: white;  /* Fallback: assume this color ON TOP of image */
+   background: url(../img/number.jpg) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .A {

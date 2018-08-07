@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>deneme</title>
+    <title>elevator panel</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="screen">
-        <div class="display">
+    <div class="container"><!-- for center -->
+      <div class="screen"><!-- for zone -->
+        <div class="display"><!-- 7 segment display -->
           <div class="segment A"></div>
           <div class="segment B"></div>
           <div class="segment C"></div>
@@ -19,22 +19,22 @@
           <div class="segment G"></div>
         </div><!-- display -->
       </div><!-- screen -->
-      <div class="panel">
-        <div class="button">
-          <div class="floor ground"><p>0</p></div>
-          <div class="floor first"><p>1</p></div>
-          <div class="floor second"><p>2</p></div>
-          <div class="floor third"><p>3</p></div>
-          <div class="floor fourth"><p>4</p></div>
-          <div class="floor fifth"><p>5</p></div>
-          <div class="floor sixth"><p>6</p></div>
-          <div class="floor seventh"><p>7</p></div>
-          <div class="floor eighth"><p>8</p></div>
-          <div class="floor ninth"><p>9</p></div>
+      <div class="panel"><!-- for zone -->
+        <div class="console"><!-- push panel -->
+          <div class="button"><button type="button" class="floor" id=ground><p>0</p></button></div>
+          <div class="button"><button type="button" class="floor" id=first><p>1</p></button></div>
+          <div class="button"><button type="button" class="floor" id=second><p>2</p></button></div>
+          <div class="button"><button type="button" class="floor" id=third><p>3</p></button></div>
+          <div class="button"><button type="button" class="floor" id=fourth><p>4</p></button></div>
+          <div class="button"><button type="button" class="floor" id=fifth><p>5</p></button></div>
+          <div class="button"><button type="button" class="floor" id=sixth><p>6</p></button></div>
+          <div class="button"><button type="button" class="floor" id=seventh><p>7</p></button></div>
+          <div class="button"><button type="button" class="floor" id=eighth><p>8</p></button></div>
+          <div class="button"><button type="button" class="floor" id=ninth><p>9</p></button></div>
         </div><!-- button -->
       </div><!-- panel -->
-      <div class="clear"></div>
+      <div class="clear"></div><!-- clear -->
     </div><!-- container -->
-    <script src="main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

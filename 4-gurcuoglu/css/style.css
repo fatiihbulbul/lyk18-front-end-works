@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Arial";
+  font-size: 16px;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .header .logo {
+  margin-top: 25px;
+  margin-left: 60px;
+  float: left;
+}
+.container .header .navigator{
+  margin-top: 80px;
+  float: right;
+}
+.container .header .navigator ul li{
+  float: left;
+}
+.container .header .navigator ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 80px 10px 10px 10px;
+  color: black;
+}
+.container .header .navigator ul li a:hover{
+  background-color: rgb(2, 145, 203);
+  color: white;
+}
+.container .banner{
+  width: 1000px;
+  height: 400px;
+  margin-top: 20px;
+  background-image: url(../img/banner.png);
+  background-position: center;
+}
+.container .logo .box{
+  background-color: rgb(243, 243, 243);
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 320px;
+  height: 100px;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+.container .logo .box img{
+  margin-top: 20px;
+}
+.container .logo .box:first-of-type{
+  margin-left: 0px;
+}
+.container .content .news{
+  width: 340px;
+  margin-top: 35px;
+  float: left;
+}
+.container .content .about{
+  width: 660px;
+  margin-top: 30px;
+  float: right;
+}
+.container .content h2{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .content .news .new{
+  margin-top: 20px;
+  width: 326px;
+}
+
+.container .content .news .new .picture{
+  border: 1px solid lightgrey;
+  float: left;
+  width: 96px;
+  height: 96px;;
+}
+.container .content .news .new .abstract{
+  width: 230px;
+  float: left;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.container .content .news .new .abstract p{
+margin-bottom: 10px;
+}
+
+.container .content .news .new .abstract .date{
+  font-weight: bold;
+}
+
+.container .content .about p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.container .footer{
+  margin-top: 20px;
+  background-color: rgb(59, 59, 59);
+}
+.container .footer p{
+  font-size: 12px;
+  padding: 20px;
+  color: lightgrey;
+}

@@ -42,34 +42,30 @@ body {
 .container .banner{
   width: 1000px;
   height: 400px;
-  margin-top: 20px;
+  margin-top: 30px;
   background-image: url(../img/banner.png);
   background-position: center;
 }
-.container .logo .box{
+.container .box ul li{
   background-color: rgb(243, 243, 243);
   float: left;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 20px;
+  margin-bottom: 20px;
   width: 320px;
   height: 100px;
   border: 1px solid lightgrey;
   text-align: center;
+  vertical-align: middle;
 }
-.container .logo .box img{
-  margin-top: 20px;
+.container .box ul li a img{
+  vertical-align: middle;
 }
-.container .logo .box:first-of-type{
+.container .box ul li:first-of-type{
   margin-left: 0px;
-}
-.container .content .news{
-  width: 340px;
-  margin-top: 35px;
-  float: left;
 }
 .container .content .about{
   width: 660px;
-  margin-top: 30px;
   float: right;
 }
 .container .content h2{
@@ -77,17 +73,21 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
-.container .content .news .new{
-  margin-top: 20px;
-  width: 326px;
+.container .content .news{
+  width: 340px;
+  float: left;
 }
-
+.container .content .news .new{
+  margin-top: 15px;
+  width: 329px;
+  float: left;
+}
 .container .content .news .new .picture{
   border: 1px solid lightgrey;
   float: left;
-  width: 96px;
-  height: 96px;;
+  width: 99px;
+  height: 99px;
+  padding: 1px;
 }
 .container .content .news .new .abstract{
   width: 230px;
@@ -95,22 +95,22 @@ body {
   font-size: 12px;
   padding-left: 10px;
 }
-
-.container .content .news .new .abstract p{
-margin-bottom: 10px;
+.container .content .news .new .abstract h3{
+  font-size: 14px;
 }
-
+.container .content .news .new .abstract p{
+  margin-top: 10px;
+}
 .container .content .news .new .abstract .date{
   font-weight: bold;
 }
-
 .container .content .about p{
   font-size: 12px;
   margin-top: 20px;
+  line-height: 14px;
 }
-
 .container .footer{
-  margin-top: 20px;
+  margin-top: 60px;
   background-color: rgb(59, 59, 59);
 }
 .container .footer p{
